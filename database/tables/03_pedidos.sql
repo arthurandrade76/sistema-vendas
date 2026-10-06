@@ -1,0 +1,8 @@
+CREATE TABLE pedidos (
+    id SERIAL PRIMARY KEY,
+    cliente_id INT NOT NULL,
+    data_pedido TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    status VARCHAR(20) NOT NULL DEFAULT 'PENDENTE' CHECK (status IN ('PENDENTE', 'CONCLUIDO', 'CANCELADO')),
+    valor_total NUMERIC(10, 2) NOT NULL DEFAULT 0.00,
+    CONSTRAINT fk_pedido_cliente FOREIGN KEY (cliente_id) REFERENCES clientes(id) ON DELETE RESTRICT
+);
