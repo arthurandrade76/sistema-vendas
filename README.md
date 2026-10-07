@@ -8,6 +8,10 @@
 | **Disciplina** | Projeto de Banco de Dados |
 | **Professor** | Anderson Soares Costa |
 
+## Vídeo explicativo
+
+▶️ [Assistir à apresentação no YouTube](https://youtu.be/pR0tvXxfHeY)
+
 ## Sobre o projeto
 
 Aplicação desktop para gestão de vendas de uma loja de produtos de informática. Ela resolve o problema de controlar de forma organizada o cadastro de clientes, a criação de pedidos, o cálculo de descontos e a baixa de estoque, centralizando as regras de negócio no banco de dados.
